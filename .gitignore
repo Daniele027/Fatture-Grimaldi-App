@@ -1,0 +1,24 @@
+# Dati aziendali: mai nel repository
+*.xls
+*.xlsx
+*.xlsm
+*.csv
+*.accdb
+*.mdb
+data/
+dati/
+
+# Credenziali
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# macOS
+.DS_Store
